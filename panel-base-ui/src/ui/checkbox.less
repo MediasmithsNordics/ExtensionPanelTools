@@ -1,0 +1,28 @@
+input[type="checkbox"], input[type="radio"] {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  background: none;
+  background-size: contain;
+}
+
+input[type="checkbox"] {
+  background-image: data-uri('img/checkbox-unchecked.png');
+
+  &:checked {
+    background-image: data-uri('img/checkbox-checked.png');
+  }
+}
+
+input[type="radio"] {
+  background-image: data-uri('img/radio-unchecked.png');
+
+  &:checked {
+    background-color: transparent;
+    background-image: data-uri('img/radio-checked.png');
+  }
+
+  &:focus {
+    background-color: transparent;
+  }
+}

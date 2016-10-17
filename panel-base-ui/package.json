@@ -1,0 +1,22 @@
+{
+  "name": "panel-base-ui",
+  "version": "1.0.0",
+  "description": "Set of CSS rules to emulate CEP host application look and feel",
+  "main": "ui.css",
+  "scripts": {
+    "build": "lessc src/ui.less panel-ui.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MediasmithsNordics/ExtensionPanelTools.git"
+  },
+  "author": "Mediasmiths AB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MediasmithsNordics/ExtensionPanelTools/issues"
+  },
+  "homepage": "https://github.com/MediasmithsNordics/ExtensionPanelTools#readme",
+  "devDependencies": {
+    "less": "^2.7.1"
+  }
+}
